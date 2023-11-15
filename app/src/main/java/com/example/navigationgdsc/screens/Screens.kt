@@ -51,10 +51,10 @@ fun CartScreen(modifier: Modifier =Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
     ){
 
-        Text(text = "Home", fontSize = 20.sp)
+        Text(text = "Cart", fontSize = 20.sp)
 
         OutlinedButton(onClick = { /*TODO*/ }) {
-            Text(text = "Home")
+            Text(text = "cart")
         }
 
     }
@@ -68,10 +68,10 @@ fun AccountScreen(modifier: Modifier =Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
     ){
 
-        Text(text = "Home", fontSize = 20.sp)
+        Text(text = "Account", fontSize = 20.sp)
 
         OutlinedButton(onClick = { /*TODO*/ }) {
-            Text(text = "Home")
+            Text(text = "account")
         }
 
     }
